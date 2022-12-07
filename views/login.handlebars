@@ -1,0 +1,73 @@
+
+<link rel="stylesheet" href="/static/login.css" type="text/css" />
+
+    <header>
+        {{!-- <nav class="navbar navbar-expand-sm navbar-light bg-light">
+              <div class="container">
+                <a class="navbar-brand" href="login.html">COCHIN CABS</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+                    <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="login.html" aria-current="page">Home <span class="visually-hidden">(current)</span></a>
+                        </li>
+                        
+                    </ul>
+                    <form class="d-flex my-2 my-lg-0">
+                        <input class="form-control me-sm-2" type="text" placeholder="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+          </div>
+        </nav> --}}
+    </header>
+    <h1>Welcome To COCHIN CABS </h1>
+    
+            <div class="col-md-7">
+               <marquee> <h1 class="booking_text">Book your Cab in Cochin NOW</h1></marquee>
+                <div class="contact_bg">
+                <div class="input_main">
+                  <div class="container">
+                    <h2 class="request_text">Your everyday travel partner</h2>
+                    <form method="post" id="loginform" name="loginform">
+                    <div class="form-group">
+                      <input type="email" class="email-bt" id="emails-bt" placeholder="Your email" name="email" minlength="8" maxlength="30" required>
+                    </div>
+                    <div class="form-group">
+                      <input type="password" class="email-bt" id="pass-bt" placeholder="Password" name="password" minlength="8" maxlength="20"   title="Must contain at least one number and one uppercase and lowercase letter, min 8 max - 12 characters"required>
+                    </div>
+                      
+                      </div> 
+                      </div>
+                    <div class="send_bt">
+                        <button type="submit" class="login1" id="login1">Login</button>
+                      
+                         {{#if message}}
+                    <p class="text-danger">{{message}}</p>
+                         {{/if}}
+                    </div>
+                    </form>
+              </div>
+              </div>
+            </div>
+        </div>        
+    
+        </div>
+    </div>
+    </div>
+    </form>
+    <footer class="text-light align-bottom">
+        <div class="container1">
+            <div class="row">
+        
+                <div class="col-sm-12">
+                    <h4>Reach Us</h4>
+                    <p>CochinCabs@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
